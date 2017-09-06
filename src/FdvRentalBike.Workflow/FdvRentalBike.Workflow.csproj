@@ -63,7 +63,7 @@
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="RentalBikeResource.resx">
-      <Generator>ResXFileCodeGenerator</Generator>
+      <Generator>PublicResXFileCodeGenerator</Generator>
       <LastGenOutput>RentalBikeResource.Designer.cs</LastGenOutput>
     </EmbeddedResource>
   </ItemGroup>

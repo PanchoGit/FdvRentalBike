@@ -1,20 +1,22 @@
 ﻿using FdvRentalBike.Domain;
 using FdvRentalBike.Workflow.Managers;
+using NUnit.Framework;
 using System.Collections.Generic;
-using Xunit;
 
 namespace FdvRentalBike.UnitTest.Manager
 {
+    [TestFixture]
     public class PromotionManagerTest
     {
         private PromotionManager sut;
 
-        public PromotionManagerTest()
+        [SetUp]
+        public void Setup()
         {
             sut = new PromotionManager();
         }
 
-        [Fact]
+        [Test]
         public void ShouldPassApplyDiscountNonePromo()
         {
             var customer = GetCustomerService(RentalType.Day, 2);
@@ -24,15 +26,14 @@ namespace FdvRentalBike.UnitTest.Manager
 
             sut.ApplyDiscount(customer, ref total);
 
-            Assert.Equal(10, total);
+            Assert.AreEqual(10, total);
         }
 
-        [Theory]
-        [InlineData(2, 100, 100)]
-        [InlineData(3, 100, 70)]
-        [InlineData(4, 100, 70)]
-        [InlineData(5, 100, 70)]
-        [InlineData(6, 100, 100)]
+        [TestCase(2, 100, 100)]
+        [TestCase(3, 100, 70)]
+        [TestCase(4, 100, 70)]
+        [TestCase(5, 100, 70)]
+        [TestCase(6, 100, 100)]
         public void ShouldPassApplyDiscountFamilyPromo(int countService, int totalCharge, int expectedTotal)
         {
             var customer = new CustomerService { Promotion = Promotion.family };
@@ -50,15 +51,14 @@ namespace FdvRentalBike.UnitTest.Manager
 
             sut.ApplyDiscount(customer, ref total);
 
-            Assert.Equal(expectedTotal, total);
+            Assert.AreEqual(expectedTotal, total);
         }
 
-        [Theory]
-        [InlineData(2, 100, 100)]
-        [InlineData(3, 100, 100)]
-        [InlineData(4, 100, 100)]
-        [InlineData(5, 100, 100)]
-        [InlineData(6, 100, 100)]
+        [TestCase(2, 100, 100)]
+        [TestCase(3, 100, 100)]
+        [TestCase(4, 100, 100)]
+        [TestCase(5, 100, 100)]
+        [TestCase(6, 100, 100)]
         public void ShouldFailApplyDiscountFamilyPromo(int countService, int totalCharge, int expectedTotal)
         {
             var customer = new CustomerService { Promotion = Promotion.none };
@@ -76,7 +76,7 @@ namespace FdvRentalBike.UnitTest.Manager
 
             sut.ApplyDiscount(customer, ref total);
 
-            Assert.Equal(expectedTotal, total);
+            Assert.AreEqual(expectedTotal, total);
         }
 
         private CustomerService GetCustomerService(RentalType rentalType, int total)

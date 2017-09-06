@@ -7,8 +7,12 @@ FdvRentalBike.sln -> Solutions: Visual studio 2015 or 2017
 # 2. Tests
 Unit Test:
 - src/FdvRentalBike.UnitTest
-- Testing tool: Xunit & Moq
+- Testing tool: Nunit & Moq
 
-Integration Test: Xunit
+Integration Test:
 - src/FdvRentalBike.IntegrationTest
-- Testing tool: Xunit
+- Testing tool: Nunit
+
+# 3. Code Coverage Report
+File:
+- etc\GeneratedReports\index.html
