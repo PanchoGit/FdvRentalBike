@@ -1,0 +1,501 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CoverageSession xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Summary numSequencePoints="69" visitedSequencePoints="69" numBranchPoints="20" visitedBranchPoints="20" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="3" minCyclomaticComplexity="0" visitedClasses="2" numClasses="2" visitedMethods="10" numMethods="10" />
+  <Modules>
+    <Module skippedDueTo="Filter" hash="F6-1C-26-32-B8-C7-A6-87-68-7E-80-4F-D3-1F-1C-EF-30-D1-05-7D">
+      <ModulePath>C:\WINDOWS\Microsoft.Net\assembly\GAC_64\mscorlib\v4.0_4.0.0.0__b77a5c561934e089\mscorlib.dll</ModulePath>
+      <ModuleTime>2017-07-28T01:28:15.6381222Z</ModuleTime>
+      <ModuleName>mscorlib</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="MissingPdb" hash="73-2C-23-38-69-24-C6-47-B0-15-58-8D-B3-63-F3-64-AC-79-40-D5">
+      <ModulePath>D:\Projects\Training\FdvRentalBike\packages\NUnit.ConsoleRunner.3.7.0\tools\nunit3-console.exe</ModulePath>
+      <ModuleTime>2017-07-13T23:33:20Z</ModuleTime>
+      <ModuleName>nunit3-console</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="5C-45-AC-96-1A-3F-70-62-64-3B-4B-48-49-8E-92-C9-37-49-F8-8E">
+      <ModulePath>C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System\v4.0_4.0.0.0__b77a5c561934e089\System.dll</ModulePath>
+      <ModuleTime>2017-07-31T22:45:57.8867608Z</ModuleTime>
+      <ModuleName>System</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="MissingPdb" hash="4D-3A-F8-21-37-BF-6C-40-07-B1-F2-B3-C1-40-95-02-8B-29-D6-BF">
+      <ModulePath>D:\Projects\Training\FdvRentalBike\packages\NUnit.ConsoleRunner.3.7.0\tools\nunit.engine.api.dll</ModulePath>
+      <ModuleTime>2017-07-13T23:33:20Z</ModuleTime>
+      <ModuleName>nunit.engine.api</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="MissingPdb" hash="78-8A-37-55-1D-1C-A6-13-69-DB-A2-FA-8C-58-E6-62-DB-70-B5-E7">
+      <ModulePath>D:\Projects\Training\FdvRentalBike\packages\NUnit.ConsoleRunner.3.7.0\tools\nunit.engine.dll</ModulePath>
+      <ModuleTime>2017-07-13T23:33:20Z</ModuleTime>
+      <ModuleName>nunit.engine</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="MissingPdb" hash="78-8A-37-55-1D-1C-A6-13-69-DB-A2-FA-8C-58-E6-62-DB-70-B5-E7">
+      <ModulePath>D:\Projects\Training\FdvRentalBike\packages\NUnit.ConsoleRunner.3.7.0\tools\nunit.engine.dll</ModulePath>
+      <ModuleTime>2017-07-13T23:33:20Z</ModuleTime>
+      <ModuleName>nunit.engine</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="21-E4-90-B5-42-20-26-BA-49-19-94-C3-CA-93-44-7B-60-08-D7-1C">
+      <ModulePath>C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Xml\v4.0_4.0.0.0__b77a5c561934e089\System.Xml.dll</ModulePath>
+      <ModuleTime>2017-07-28T01:29:28.9125785Z</ModuleTime>
+      <ModuleName>System.Xml</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="BA-C3-1A-32-62-15-B4-CA-4B-D6-04-07-22-46-9F-35-6C-EF-4A-64">
+      <ModulePath>C:\WINDOWS\Microsoft.Net\assembly\GAC_64\System.Web\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Web.dll</ModulePath>
+      <ModuleTime>2017-07-31T22:46:54.556383Z</ModuleTime>
+      <ModuleName>System.Web</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="MissingPdb" hash="8A-2E-8F-D6-9D-39-02-4A-2F-30-FC-06-42-F7-0F-A8-32-69-07-72">
+      <ModulePath>D:\Projects\Training\FdvRentalBike\packages\NUnit.ConsoleRunner.3.7.0\tools\Mono.Cecil.dll</ModulePath>
+      <ModuleTime>2017-07-13T23:33:20Z</ModuleTime>
+      <ModuleName>Mono.Cecil</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="27-33-9D-83-64-AB-93-6A-B4-BE-AB-4D-9B-75-8B-E2-B9-63-8B-DE">
+      <ModulePath>C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Runtime.Remoting\v4.0_4.0.0.0__b77a5c561934e089\System.Runtime.Remoting.dll</ModulePath>
+      <ModuleTime>2017-03-18T20:59:43.8062628Z</ModuleTime>
+      <ModuleName>System.Runtime.Remoting</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="0C-91-60-C5-26-07-2E-2E-54-A1-8A-32-86-67-C5-B4-A5-93-05-F9">
+      <ModulePath>C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Configuration\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Configuration.dll</ModulePath>
+      <ModuleTime>2017-03-18T20:59:43.7281312Z</ModuleTime>
+      <ModuleName>System.Configuration</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="F6-1C-26-32-B8-C7-A6-87-68-7E-80-4F-D3-1F-1C-EF-30-D1-05-7D">
+      <ModulePath>C:\WINDOWS\Microsoft.Net\assembly\GAC_64\mscorlib\v4.0_4.0.0.0__b77a5c561934e089\mscorlib.dll</ModulePath>
+      <ModuleTime>2017-07-28T01:28:15.6381222Z</ModuleTime>
+      <ModuleName>mscorlib</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="MissingPdb" hash="F5-B4-D0-7A-07-D3-FB-8D-44-18-EB-94-5A-2A-C5-32-D7-96-48-25">
+      <ModulePath>D:\Projects\Training\FdvRentalBike\packages\NUnit.ConsoleRunner.3.7.0\tools\nunit-agent.exe</ModulePath>
+      <ModuleTime>2017-07-13T23:33:20Z</ModuleTime>
+      <ModuleName>nunit-agent</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="MissingPdb" hash="78-8A-37-55-1D-1C-A6-13-69-DB-A2-FA-8C-58-E6-62-DB-70-B5-E7">
+      <ModulePath>D:\Projects\Training\FdvRentalBike\packages\NUnit.ConsoleRunner.3.7.0\tools\nunit.engine.dll</ModulePath>
+      <ModuleTime>2017-07-13T23:33:20Z</ModuleTime>
+      <ModuleName>nunit.engine</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="MissingPdb" hash="4D-3A-F8-21-37-BF-6C-40-07-B1-F2-B3-C1-40-95-02-8B-29-D6-BF">
+      <ModulePath>D:\Projects\Training\FdvRentalBike\packages\NUnit.ConsoleRunner.3.7.0\tools\nunit.engine.api.dll</ModulePath>
+      <ModuleTime>2017-07-13T23:33:20Z</ModuleTime>
+      <ModuleName>nunit.engine.api</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="5C-45-AC-96-1A-3F-70-62-64-3B-4B-48-49-8E-92-C9-37-49-F8-8E">
+      <ModulePath>C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System\v4.0_4.0.0.0__b77a5c561934e089\System.dll</ModulePath>
+      <ModuleTime>2017-07-31T22:45:57.8867608Z</ModuleTime>
+      <ModuleName>System</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="21-E4-90-B5-42-20-26-BA-49-19-94-C3-CA-93-44-7B-60-08-D7-1C">
+      <ModulePath>C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Xml\v4.0_4.0.0.0__b77a5c561934e089\System.Xml.dll</ModulePath>
+      <ModuleTime>2017-07-28T01:29:28.9125785Z</ModuleTime>
+      <ModuleName>System.Xml</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="BA-C3-1A-32-62-15-B4-CA-4B-D6-04-07-22-46-9F-35-6C-EF-4A-64">
+      <ModulePath>C:\WINDOWS\Microsoft.Net\assembly\GAC_64\System.Web\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Web.dll</ModulePath>
+      <ModuleTime>2017-07-31T22:46:54.556383Z</ModuleTime>
+      <ModuleName>System.Web</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="MissingPdb" hash="8A-2E-8F-D6-9D-39-02-4A-2F-30-FC-06-42-F7-0F-A8-32-69-07-72">
+      <ModulePath>D:\Projects\Training\FdvRentalBike\packages\NUnit.ConsoleRunner.3.7.0\tools\Mono.Cecil.dll</ModulePath>
+      <ModuleTime>2017-07-13T23:33:20Z</ModuleTime>
+      <ModuleName>Mono.Cecil</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="27-33-9D-83-64-AB-93-6A-B4-BE-AB-4D-9B-75-8B-E2-B9-63-8B-DE">
+      <ModulePath>C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Runtime.Remoting\v4.0_4.0.0.0__b77a5c561934e089\System.Runtime.Remoting.dll</ModulePath>
+      <ModuleTime>2017-03-18T20:59:43.8062628Z</ModuleTime>
+      <ModuleName>System.Runtime.Remoting</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="0C-91-60-C5-26-07-2E-2E-54-A1-8A-32-86-67-C5-B4-A5-93-05-F9">
+      <ModulePath>C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Configuration\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Configuration.dll</ModulePath>
+      <ModuleTime>2017-03-18T20:59:43.7281312Z</ModuleTime>
+      <ModuleName>System.Configuration</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="MissingPdb" hash="46-8F-73-28-B5-95-50-DA-6E-FF-25-AE-F6-51-AB-FE-4C-9F-AE-E2">
+      <ModulePath>D:\Projects\Training\FdvRentalBike\src\FdvRentalBike.UnitTest\bin\Debug\nunit.framework.dll</ModulePath>
+      <ModuleTime>2017-08-29T00:09:36Z</ModuleTime>
+      <ModuleName>nunit.framework</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="5C-45-AC-96-1A-3F-70-62-64-3B-4B-48-49-8E-92-C9-37-49-F8-8E">
+      <ModulePath>C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System\v4.0_4.0.0.0__b77a5c561934e089\System.dll</ModulePath>
+      <ModuleTime>2017-07-31T22:45:57.8867608Z</ModuleTime>
+      <ModuleName>System</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="EC-C8-73-33-83-EB-E9-33-AC-FD-CC-8D-E1-9C-57-8F-47-55-09-A9">
+      <ModulePath>C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Core\v4.0_4.0.0.0__b77a5c561934e089\System.Core.dll</ModulePath>
+      <ModuleTime>2017-07-28T01:29:28.5532064Z</ModuleTime>
+      <ModuleName>System.Core</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="BA-C3-1A-32-62-15-B4-CA-4B-D6-04-07-22-46-9F-35-6C-EF-4A-64">
+      <ModulePath>C:\WINDOWS\Microsoft.Net\assembly\GAC_64\System.Web\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Web.dll</ModulePath>
+      <ModuleTime>2017-07-31T22:46:54.556383Z</ModuleTime>
+      <ModuleName>System.Web</ModuleName>
+      <Classes />
+    </Module>
+    <Module hash="9C-85-04-08-BB-BB-78-CA-ED-34-10-A0-A9-3B-49-5F-93-78-4C-2F">
+      <Summary numSequencePoints="0" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="0" minCyclomaticComplexity="0" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="0" />
+      <ModulePath>D:\Projects\Training\FdvRentalBike\src\FdvRentalBike.UnitTest\bin\Debug\FdvRentalBike.UnitTest.dll</ModulePath>
+      <ModuleTime>2017-09-06T00:55:17.1187523Z</ModuleTime>
+      <ModuleName>FdvRentalBike.UnitTest</ModuleName>
+      <Files />
+      <Classes>
+        <Class skippedDueTo="Filter">
+          <FullName>&lt;Module&gt;</FullName>
+          <Methods />
+        </Class>
+        <Class skippedDueTo="Filter">
+          <FullName>FdvRentalBike.UnitTest.Workflow.RentalBikeWorkflowTest</FullName>
+          <Methods />
+        </Class>
+        <Class skippedDueTo="Filter">
+          <FullName>FdvRentalBike.UnitTest.Workflow.RentalBikeWorkflowTest/&lt;&gt;c__DisplayClass4_0</FullName>
+          <Methods />
+        </Class>
+        <Class skippedDueTo="Filter">
+          <FullName>FdvRentalBike.UnitTest.Workflow.RentalBikeWorkflowTest/&lt;&gt;c</FullName>
+          <Methods />
+        </Class>
+        <Class skippedDueTo="Filter">
+          <FullName>FdvRentalBike.UnitTest.Manager.PromotionManagerTest</FullName>
+          <Methods />
+        </Class>
+      </Classes>
+    </Module>
+    <Module hash="49-07-CA-9A-D0-30-A1-46-4C-8E-25-2F-A1-17-91-DC-7D-DD-8C-8A">
+      <Summary numSequencePoints="0" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="0" minCyclomaticComplexity="0" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="0" />
+      <ModulePath>D:\Projects\Training\FdvRentalBike\src\FdvRentalBike.UnitTest\bin\Debug\FdvRentalBike.Domain.dll</ModulePath>
+      <ModuleTime>2017-09-06T00:50:46.8174986Z</ModuleTime>
+      <ModuleName>FdvRentalBike.Domain</ModuleName>
+      <Files />
+      <Classes>
+        <Class skippedDueTo="Filter">
+          <FullName>&lt;Module&gt;</FullName>
+          <Methods />
+        </Class>
+        <Class skippedDueTo="Filter">
+          <FullName>FdvRentalBike.Domain.Customer</FullName>
+          <Methods />
+        </Class>
+        <Class skippedDueTo="Filter">
+          <FullName>FdvRentalBike.Domain.CustomerService</FullName>
+          <Methods />
+        </Class>
+        <Class skippedDueTo="Filter">
+          <FullName>FdvRentalBike.Domain.RentService</FullName>
+          <Methods />
+        </Class>
+      </Classes>
+    </Module>
+    <Module skippedDueTo="Filter" hash="21-E4-90-B5-42-20-26-BA-49-19-94-C3-CA-93-44-7B-60-08-D7-1C">
+      <ModulePath>C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Xml\v4.0_4.0.0.0__b77a5c561934e089\System.Xml.dll</ModulePath>
+      <ModuleTime>2017-07-28T01:29:28.9125785Z</ModuleTime>
+      <ModuleName>System.Xml</ModuleName>
+      <Classes />
+    </Module>
+    <Module hash="D3-84-87-BD-D2-11-B4-6D-9B-AE-6A-96-EE-9D-6B-16-23-1F-32-41">
+      <Summary numSequencePoints="69" visitedSequencePoints="69" numBranchPoints="20" visitedBranchPoints="20" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="3" minCyclomaticComplexity="1" visitedClasses="2" numClasses="2" visitedMethods="10" numMethods="10" />
+      <ModulePath>D:\Projects\Training\FdvRentalBike\src\FdvRentalBike.UnitTest\bin\Debug\FdvRentalBike.Workflow.dll</ModulePath>
+      <ModuleTime>2017-09-06T00:50:46.9563688Z</ModuleTime>
+      <ModuleName>FdvRentalBike.Workflow</ModuleName>
+      <Files>
+        <File uid="1" fullPath="D:\Projects\Training\FdvRentalBike\src\FdvRentalBike.Workflow\RentalBikeWorkflow.cs" />
+        <File uid="2" fullPath="D:\Projects\Training\FdvRentalBike\src\FdvRentalBike.Workflow\Managers\PromotionManager.cs" />
+      </Files>
+      <Classes>
+        <Class>
+          <Summary numSequencePoints="0" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="0" minCyclomaticComplexity="0" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="0" />
+          <FullName>&lt;Module&gt;</FullName>
+          <Methods />
+        </Class>
+        <Class skippedDueTo="Filter">
+          <FullName>FdvRentalBike.Workflow.RentalBikeResource</FullName>
+          <Methods />
+        </Class>
+        <Class>
+          <Summary numSequencePoints="57" visitedSequencePoints="57" numBranchPoints="14" visitedBranchPoints="14" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="3" minCyclomaticComplexity="1" visitedClasses="1" numClasses="1" visitedMethods="8" numMethods="8" />
+          <FullName>FdvRentalBike.Workflow.RentalBikeWorkflow</FullName>
+          <Methods>
+            <Method visited="true" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="100" branchCoverage="100" isConstructor="true" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="5" visitedSequencePoints="5" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken>100663303</MetadataToken>
+              <Name>System.Void FdvRentalBike.Workflow.RentalBikeWorkflow::.ctor(FdvRentalBike.Workflow.Managers.Interfaces.IPromotionManager)</Name>
+              <FileRef uid="1" />
+              <SequencePoints>
+                <SequencePoint vc="11" uspid="1" ordinal="0" offset="0" sl="15" sc="9" el="15" ec="70" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="11" uspid="2" ordinal="1" offset="7" sl="16" sc="9" el="16" ec="10" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="11" uspid="3" ordinal="2" offset="8" sl="17" sc="13" el="17" ec="54" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="11" uspid="4" ordinal="3" offset="15" sl="18" sc="13" el="18" ec="33" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="11" uspid="5" ordinal="4" offset="22" sl="19" sc="9" el="19" ec="10" bec="0" bev="0" fileid="1" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="11" uspid="1" ordinal="0" offset="0" sl="15" sc="9" el="15" ec="70" bec="0" bev="0" fileid="1" />
+            </Method>
+            <Method visited="true" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="100" branchCoverage="100" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="3" visitedSequencePoints="3" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken>100663304</MetadataToken>
+              <Name>System.Void FdvRentalBike.Workflow.RentalBikeWorkflow::InitRentalTypeMap()</Name>
+              <FileRef uid="1" />
+              <SequencePoints>
+                <SequencePoint vc="11" uspid="6" ordinal="0" offset="0" sl="22" sc="9" el="22" ec="10" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="11" uspid="7" ordinal="1" offset="1" sl="23" sc="13" el="28" ec="15" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="11" uspid="8" ordinal="2" offset="74" sl="29" sc="9" el="29" ec="10" bec="0" bev="0" fileid="1" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="11" uspid="6" ordinal="0" offset="0" sl="22" sc="9" el="22" ec="10" bec="0" bev="0" fileid="1" />
+            </Method>
+            <Method visited="true" cyclomaticComplexity="3" nPathComplexity="2" sequenceCoverage="100" branchCoverage="100" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="16" visitedSequencePoints="16" numBranchPoints="3" visitedBranchPoints="3" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="3" minCyclomaticComplexity="3" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken>100663305</MetadataToken>
+              <Name>FdvRentalBike.Common.Result FdvRentalBike.Workflow.RentalBikeWorkflow::Save(FdvRentalBike.Domain.CustomerService)</Name>
+              <FileRef uid="1" />
+              <SequencePoints>
+                <SequencePoint vc="11" uspid="9" ordinal="0" offset="0" sl="32" sc="9" el="32" ec="10" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="11" uspid="10" ordinal="1" offset="1" sl="33" sc="13" el="33" ec="56" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="11" uspid="11" ordinal="2" offset="9" sl="35" sc="13" el="35" ec="34" bec="2" bev="2" fileid="1" />
+                <SequencePoint vc="1" uspid="12" ordinal="3" offset="19" sl="35" sc="35" el="35" ec="49" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="10" uspid="13" ordinal="4" offset="23" sl="37" sc="13" el="37" ec="33" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="10" uspid="14" ordinal="5" offset="25" sl="39" sc="13" el="39" ec="20" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="10" uspid="15" ordinal="6" offset="26" sl="39" sc="33" el="39" ec="61" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="12" uspid="16" ordinal="7" offset="41" sl="39" sc="21" el="39" ec="29" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="12" uspid="17" ordinal="8" offset="50" sl="40" sc="13" el="40" ec="14" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="12" uspid="18" ordinal="9" offset="51" sl="41" sc="17" el="41" ec="75" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="12" uspid="19" ordinal="10" offset="84" sl="42" sc="13" el="42" ec="14" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="22" uspid="20" ordinal="11" offset="85" sl="39" sc="30" el="39" ec="32" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="10" uspid="21" ordinal="12" offset="111" sl="44" sc="13" el="44" ec="78" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="10" uspid="22" ordinal="13" offset="126" sl="46" sc="13" el="46" ec="55" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="10" uspid="23" ordinal="14" offset="134" sl="48" sc="13" el="48" ec="48" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="11" uspid="24" ordinal="15" offset="143" sl="49" sc="9" el="49" ec="10" bec="0" bev="0" fileid="1" />
+              </SequencePoints>
+              <BranchPoints>
+                <BranchPoint vc="1" uspid="25" ordinal="0" offset="17" sl="35" path="0" offsetend="19" fileid="1" />
+                <BranchPoint vc="10" uspid="26" ordinal="1" offset="17" sl="35" path="1" offsetend="23" fileid="1" />
+              </BranchPoints>
+              <MethodPoint xsi:type="SequencePoint" vc="11" uspid="9" ordinal="0" offset="0" sl="32" sc="9" el="32" ec="10" bec="0" bev="0" fileid="1" />
+            </Method>
+            <Method visited="true" cyclomaticComplexity="2" nPathComplexity="0" sequenceCoverage="100" branchCoverage="100" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="12" visitedSequencePoints="12" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="2" minCyclomaticComplexity="2" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken>100663306</MetadataToken>
+              <Name>FdvRentalBike.Common.Result FdvRentalBike.Workflow.RentalBikeWorkflow::ValidateSave(FdvRentalBike.Domain.CustomerService)</Name>
+              <FileRef uid="1" />
+              <SequencePoints>
+                <SequencePoint vc="11" uspid="29" ordinal="0" offset="0" sl="52" sc="9" el="52" ec="10" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="11" uspid="30" ordinal="1" offset="1" sl="53" sc="13" el="53" ec="39" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="11" uspid="31" ordinal="2" offset="7" sl="55" sc="13" el="55" ec="20" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="11" uspid="32" ordinal="3" offset="8" sl="55" sc="33" el="55" ec="61" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="13" uspid="33" ordinal="4" offset="22" sl="55" sc="21" el="55" ec="29" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="13" uspid="34" ordinal="5" offset="30" sl="56" sc="13" el="56" ec="14" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="13" uspid="35" ordinal="6" offset="31" sl="57" sc="17" el="57" ec="80" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="13" uspid="36" ordinal="7" offset="50" sl="59" sc="17" el="59" ec="57" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="13" uspid="37" ordinal="8" offset="63" sl="60" sc="13" el="60" ec="14" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="24" uspid="38" ordinal="9" offset="64" sl="55" sc="30" el="55" ec="32" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="11" uspid="39" ordinal="10" offset="90" sl="62" sc="13" el="62" ec="27" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="11" uspid="40" ordinal="11" offset="95" sl="63" sc="9" el="63" ec="10" bec="0" bev="0" fileid="1" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="11" uspid="29" ordinal="0" offset="0" sl="52" sc="9" el="52" ec="10" bec="0" bev="0" fileid="1" />
+            </Method>
+            <Method visited="true" cyclomaticComplexity="3" nPathComplexity="4" sequenceCoverage="100" branchCoverage="100" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="12" visitedSequencePoints="12" numBranchPoints="5" visitedBranchPoints="5" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="3" minCyclomaticComplexity="3" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken>100663307</MetadataToken>
+              <Name>FdvRentalBike.Common.Result FdvRentalBike.Workflow.RentalBikeWorkflow::ValidateSaveItem(FdvRentalBike.Domain.RentalType,System.Int32)</Name>
+              <FileRef uid="1" />
+              <SequencePoints>
+                <SequencePoint vc="13" uspid="43" ordinal="0" offset="0" sl="66" sc="9" el="66" ec="10" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="13" uspid="44" ordinal="1" offset="1" sl="67" sc="13" el="67" ec="39" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="13" uspid="45" ordinal="2" offset="7" sl="69" sc="13" el="69" ec="56" bec="2" bev="2" fileid="1" />
+                <SequencePoint vc="1" uspid="46" ordinal="3" offset="26" sl="70" sc="13" el="70" ec="14" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="1" uspid="47" ordinal="4" offset="27" sl="71" sc="17" el="71" ec="127" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="1" uspid="48" ordinal="5" offset="44" sl="72" sc="13" el="72" ec="14" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="13" uspid="49" ordinal="6" offset="45" sl="74" sc="13" el="74" ec="28" bec="2" bev="2" fileid="1" />
+                <SequencePoint vc="1" uspid="50" ordinal="7" offset="53" sl="75" sc="13" el="75" ec="14" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="1" uspid="51" ordinal="8" offset="54" sl="76" sc="17" el="76" ec="125" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="1" uspid="52" ordinal="9" offset="71" sl="77" sc="13" el="77" ec="14" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="13" uspid="53" ordinal="10" offset="72" sl="79" sc="13" el="79" ec="27" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="13" uspid="54" ordinal="11" offset="76" sl="80" sc="9" el="80" ec="10" bec="0" bev="0" fileid="1" />
+              </SequencePoints>
+              <BranchPoints>
+                <BranchPoint vc="1" uspid="55" ordinal="0" offset="24" sl="69" path="0" offsetend="26" fileid="1" />
+                <BranchPoint vc="12" uspid="56" ordinal="1" offset="24" sl="69" path="1" offsetend="45" fileid="1" />
+                <BranchPoint vc="1" uspid="57" ordinal="2" offset="51" sl="74" path="0" offsetend="53" fileid="1" />
+                <BranchPoint vc="12" uspid="58" ordinal="3" offset="51" sl="74" path="1" offsetend="72" fileid="1" />
+              </BranchPoints>
+              <MethodPoint xsi:type="SequencePoint" vc="13" uspid="43" ordinal="0" offset="0" sl="66" sc="9" el="66" ec="10" bec="0" bev="0" fileid="1" />
+            </Method>
+            <Method visited="true" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="100" branchCoverage="100" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="3" visitedSequencePoints="3" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken>100663308</MetadataToken>
+              <Name>System.Int32 FdvRentalBike.Workflow.RentalBikeWorkflow::CalculateByHour(System.Int32)</Name>
+              <FileRef uid="1" />
+              <SequencePoints>
+                <SequencePoint vc="3" uspid="59" ordinal="0" offset="0" sl="83" sc="9" el="83" ec="10" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="3" uspid="60" ordinal="1" offset="1" sl="84" sc="13" el="84" ec="49" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="3" uspid="61" ordinal="2" offset="7" sl="85" sc="9" el="85" ec="10" bec="0" bev="0" fileid="1" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="3" uspid="59" ordinal="0" offset="0" sl="83" sc="9" el="83" ec="10" bec="0" bev="0" fileid="1" />
+            </Method>
+            <Method visited="true" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="100" branchCoverage="100" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="3" visitedSequencePoints="3" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken>100663309</MetadataToken>
+              <Name>System.Int32 FdvRentalBike.Workflow.RentalBikeWorkflow::CalculateByDay(System.Int32)</Name>
+              <FileRef uid="1" />
+              <SequencePoints>
+                <SequencePoint vc="6" uspid="62" ordinal="0" offset="0" sl="88" sc="9" el="88" ec="10" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="6" uspid="63" ordinal="1" offset="1" sl="89" sc="13" el="89" ec="48" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="6" uspid="64" ordinal="2" offset="8" sl="90" sc="9" el="90" ec="10" bec="0" bev="0" fileid="1" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="6" uspid="62" ordinal="0" offset="0" sl="88" sc="9" el="88" ec="10" bec="0" bev="0" fileid="1" />
+            </Method>
+            <Method visited="true" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="100" branchCoverage="100" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="3" visitedSequencePoints="3" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken>100663310</MetadataToken>
+              <Name>System.Int32 FdvRentalBike.Workflow.RentalBikeWorkflow::CalculateByWeek(System.Int32)</Name>
+              <FileRef uid="1" />
+              <SequencePoints>
+                <SequencePoint vc="3" uspid="65" ordinal="0" offset="0" sl="93" sc="9" el="93" ec="10" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="3" uspid="66" ordinal="1" offset="1" sl="94" sc="13" el="94" ec="49" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="3" uspid="67" ordinal="2" offset="8" sl="95" sc="9" el="95" ec="10" bec="0" bev="0" fileid="1" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="3" uspid="65" ordinal="0" offset="0" sl="93" sc="9" el="93" ec="10" bec="0" bev="0" fileid="1" />
+            </Method>
+          </Methods>
+        </Class>
+        <Class>
+          <Summary numSequencePoints="12" visitedSequencePoints="12" numBranchPoints="6" visitedBranchPoints="6" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="3" minCyclomaticComplexity="1" visitedClasses="1" numClasses="1" visitedMethods="2" numMethods="2" />
+          <FullName>FdvRentalBike.Workflow.Managers.PromotionManager</FullName>
+          <Methods>
+            <Method visited="true" cyclomaticComplexity="2" nPathComplexity="2" sequenceCoverage="100" branchCoverage="100" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="6" visitedSequencePoints="6" numBranchPoints="3" visitedBranchPoints="3" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="2" minCyclomaticComplexity="2" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken>100663311</MetadataToken>
+              <Name>System.Void FdvRentalBike.Workflow.Managers.PromotionManager::ApplyDiscount(FdvRentalBike.Domain.CustomerService,System.Int32&amp;)</Name>
+              <FileRef uid="2" />
+              <SequencePoints>
+                <SequencePoint vc="11" uspid="68" ordinal="0" offset="0" sl="13" sc="9" el="13" ec="10" bec="0" bev="0" fileid="2" />
+                <SequencePoint vc="11" uspid="69" ordinal="1" offset="1" sl="14" sc="13" el="14" ec="52" bec="2" bev="2" fileid="2" />
+                <SequencePoint vc="3" uspid="70" ordinal="2" offset="12" sl="15" sc="13" el="15" ec="14" bec="0" bev="0" fileid="2" />
+                <SequencePoint vc="3" uspid="71" ordinal="3" offset="13" sl="16" sc="17" el="16" ec="87" bec="0" bev="0" fileid="2" />
+                <SequencePoint vc="3" uspid="72" ordinal="4" offset="26" sl="17" sc="13" el="17" ec="14" bec="0" bev="0" fileid="2" />
+                <SequencePoint vc="11" uspid="73" ordinal="5" offset="27" sl="18" sc="9" el="18" ec="10" bec="0" bev="0" fileid="2" />
+              </SequencePoints>
+              <BranchPoints>
+                <BranchPoint vc="3" uspid="74" ordinal="0" offset="10" sl="14" path="0" offsetend="12" fileid="2" />
+                <BranchPoint vc="8" uspid="75" ordinal="1" offset="10" sl="14" path="1" offsetend="27" fileid="2" />
+              </BranchPoints>
+              <MethodPoint xsi:type="SequencePoint" vc="11" uspid="68" ordinal="0" offset="0" sl="13" sc="9" el="13" ec="10" bec="0" bev="0" fileid="2" />
+            </Method>
+            <Method visited="true" cyclomaticComplexity="3" nPathComplexity="2" sequenceCoverage="100" branchCoverage="100" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="6" visitedSequencePoints="6" numBranchPoints="3" visitedBranchPoints="3" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="3" minCyclomaticComplexity="3" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken>100663312</MetadataToken>
+              <Name>System.Boolean FdvRentalBike.Workflow.Managers.PromotionManager::IsFamilyPromotion(FdvRentalBike.Domain.CustomerService)</Name>
+              <FileRef uid="2" />
+              <SequencePoints>
+                <SequencePoint vc="11" uspid="76" ordinal="0" offset="0" sl="21" sc="9" el="21" ec="10" bec="0" bev="0" fileid="2" />
+                <SequencePoint vc="11" uspid="77" ordinal="1" offset="1" sl="22" sc="13" el="22" ec="63" bec="2" bev="2" fileid="2" />
+                <SequencePoint vc="6" uspid="78" ordinal="2" offset="17" sl="22" sc="64" el="22" ec="77" bec="0" bev="0" fileid="2" />
+                <SequencePoint vc="5" uspid="79" ordinal="3" offset="21" sl="24" sc="13" el="24" ec="67" bec="0" bev="0" fileid="2" />
+                <SequencePoint vc="5" uspid="80" ordinal="4" offset="33" sl="26" sc="13" el="27" ec="64" bec="0" bev="0" fileid="2" />
+                <SequencePoint vc="11" uspid="81" ordinal="5" offset="50" sl="28" sc="9" el="28" ec="10" bec="0" bev="0" fileid="2" />
+              </SequencePoints>
+              <BranchPoints>
+                <BranchPoint vc="6" uspid="82" ordinal="0" offset="15" sl="22" path="0" offsetend="17" fileid="2" />
+                <BranchPoint vc="5" uspid="83" ordinal="1" offset="15" sl="22" path="1" offsetend="21" fileid="2" />
+              </BranchPoints>
+              <MethodPoint xsi:type="SequencePoint" vc="11" uspid="76" ordinal="0" offset="0" sl="21" sc="9" el="21" ec="10" bec="0" bev="0" fileid="2" />
+            </Method>
+            <Method visited="true" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" isConstructor="true" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="0" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="0" />
+              <MetadataToken>100663313</MetadataToken>
+              <Name>System.Void FdvRentalBike.Workflow.Managers.PromotionManager::.ctor()</Name>
+              <SequencePoints />
+              <BranchPoints />
+              <MethodPoint vc="11" uspid="86" ordinal="0" offset="0" />
+            </Method>
+          </Methods>
+        </Class>
+      </Classes>
+    </Module>
+    <Module skippedDueTo="MissingPdb" hash="25-18-2B-04-C8-A8-1A-70-C7-F4-3E-F9-60-D9-CA-11-34-99-DC-38">
+      <ModulePath>D:\Projects\Training\FdvRentalBike\src\FdvRentalBike.UnitTest\bin\Debug\Moq.dll</ModulePath>
+      <ModuleTime>2017-07-17T03:46:26Z</ModuleTime>
+      <ModuleName>Moq</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="MissingPdb" hash="4E-7C-21-CC-48-0A-99-89-93-67-88-DA-BD-40-39-22-F6-C8-BD-07">
+      <ModulePath>D:\Projects\Training\FdvRentalBike\src\FdvRentalBike.UnitTest\bin\Debug\Castle.Core.dll</ModulePath>
+      <ModuleTime>2017-07-12T09:37:22Z</ModuleTime>
+      <ModuleName>Castle.Core</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="0C-91-60-C5-26-07-2E-2E-54-A1-8A-32-86-67-C5-B4-A5-93-05-F9">
+      <ModulePath>C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Configuration\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Configuration.dll</ModulePath>
+      <ModuleTime>2017-03-18T20:59:43.7281312Z</ModuleTime>
+      <ModuleName>System.Configuration</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="MissingPdb" hash="">
+      <ModulePath>RefEmit_InMemoryManifestModule</ModulePath>
+      <ModuleTime>0001-01-01T00:00:00</ModuleTime>
+      <ModuleName>DynamicProxyGenAssembly2</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="MissingPdb" hash="">
+      <ModulePath>RefEmit_InMemoryManifestModule</ModulePath>
+      <ModuleTime>0001-01-01T00:00:00</ModuleTime>
+      <ModuleName>DynamicProxyGenAssembly2</ModuleName>
+      <Classes />
+    </Module>
+    <Module hash="51-41-16-F6-2A-4C-2B-81-25-16-72-D6-66-9B-54-09-3B-D4-54-4E">
+      <Summary numSequencePoints="0" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="0" minCyclomaticComplexity="0" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="0" />
+      <ModulePath>D:\Projects\Training\FdvRentalBike\src\FdvRentalBike.UnitTest\bin\Debug\FdvRentalBike.Common.dll</ModulePath>
+      <ModuleTime>2017-09-06T00:50:46.8360496Z</ModuleTime>
+      <ModuleName>FdvRentalBike.Common</ModuleName>
+      <Files />
+      <Classes>
+        <Class skippedDueTo="Filter">
+          <FullName>&lt;Module&gt;</FullName>
+          <Methods />
+        </Class>
+        <Class skippedDueTo="Filter">
+          <FullName>FdvRentalBike.Common.Result</FullName>
+          <Methods />
+        </Class>
+        <Class skippedDueTo="Filter">
+          <FullName>FdvRentalBike.Common.Result`1</FullName>
+          <Methods />
+        </Class>
+        <Class skippedDueTo="Filter">
+          <FullName>FdvRentalBike.Common.ResultError</FullName>
+          <Methods />
+        </Class>
+      </Classes>
+    </Module>
+    <Module skippedDueTo="MissingPdb" hash="">
+      <ModulePath>RefEmit_InMemoryManifestModule</ModulePath>
+      <ModuleTime>0001-01-01T00:00:00</ModuleTime>
+      <ModuleName>Anonymously Hosted DynamicMethods Assembly</ModuleName>
+      <Classes />
+    </Module>
+  </Modules>
+</CoverageSession>
