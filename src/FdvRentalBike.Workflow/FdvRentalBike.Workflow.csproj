@@ -40,7 +40,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Helpers\VersionHelper.cs" />
     <Compile Include="Interfaces\IRentalBikeWorkflow.cs" />
     <Compile Include="Managers\Interfaces\IPromotionManager.cs" />
     <Compile Include="Managers\PromotionManager.cs" />
