@@ -152,10 +152,10 @@
       <ModuleName>System.Web</ModuleName>
       <Classes />
     </Module>
-    <Module hash="9C-85-04-08-BB-BB-78-CA-ED-34-10-A0-A9-3B-49-5F-93-78-4C-2F">
+    <Module hash="FA-6D-D3-8C-84-34-44-23-D9-80-CD-63-CD-04-C5-CB-B6-15-BE-90">
       <Summary numSequencePoints="0" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="0" minCyclomaticComplexity="0" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="0" />
       <ModulePath>D:\Projects\Training\FdvRentalBike\src\FdvRentalBike.UnitTest\bin\Debug\FdvRentalBike.UnitTest.dll</ModulePath>
-      <ModuleTime>2017-09-06T00:55:17.1187523Z</ModuleTime>
+      <ModuleTime>2017-09-07T02:01:01.2076342Z</ModuleTime>
       <ModuleName>FdvRentalBike.UnitTest</ModuleName>
       <Files />
       <Classes>
@@ -181,10 +181,10 @@
         </Class>
       </Classes>
     </Module>
-    <Module hash="49-07-CA-9A-D0-30-A1-46-4C-8E-25-2F-A1-17-91-DC-7D-DD-8C-8A">
+    <Module hash="A8-77-C0-B4-FE-6D-14-E3-34-91-EC-D4-83-F8-7B-C7-13-DC-8F-78">
       <Summary numSequencePoints="0" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="0" minCyclomaticComplexity="0" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="0" />
       <ModulePath>D:\Projects\Training\FdvRentalBike\src\FdvRentalBike.UnitTest\bin\Debug\FdvRentalBike.Domain.dll</ModulePath>
-      <ModuleTime>2017-09-06T00:50:46.8174986Z</ModuleTime>
+      <ModuleTime>2017-09-07T01:54:40.3797704Z</ModuleTime>
       <ModuleName>FdvRentalBike.Domain</ModuleName>
       <Files />
       <Classes>
@@ -212,10 +212,10 @@
       <ModuleName>System.Xml</ModuleName>
       <Classes />
     </Module>
-    <Module hash="D3-84-87-BD-D2-11-B4-6D-9B-AE-6A-96-EE-9D-6B-16-23-1F-32-41">
+    <Module hash="AF-EF-8C-0A-E3-02-02-80-A4-AC-1A-B2-0C-72-C1-83-7E-F7-C8-7F">
       <Summary numSequencePoints="69" visitedSequencePoints="69" numBranchPoints="20" visitedBranchPoints="20" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="3" minCyclomaticComplexity="1" visitedClasses="2" numClasses="2" visitedMethods="10" numMethods="10" />
       <ModulePath>D:\Projects\Training\FdvRentalBike\src\FdvRentalBike.UnitTest\bin\Debug\FdvRentalBike.Workflow.dll</ModulePath>
-      <ModuleTime>2017-09-06T00:50:46.9563688Z</ModuleTime>
+      <ModuleTime>2017-09-07T02:00:29.1102616Z</ModuleTime>
       <ModuleName>FdvRentalBike.Workflow</ModuleName>
       <Files>
         <File uid="1" fullPath="D:\Projects\Training\FdvRentalBike\src\FdvRentalBike.Workflow\RentalBikeWorkflow.cs" />
@@ -466,10 +466,10 @@
       <ModuleName>DynamicProxyGenAssembly2</ModuleName>
       <Classes />
     </Module>
-    <Module hash="51-41-16-F6-2A-4C-2B-81-25-16-72-D6-66-9B-54-09-3B-D4-54-4E">
+    <Module hash="1C-79-C8-BB-BB-AF-5F-33-FD-ED-3C-67-14-DD-79-73-ED-62-2D-65">
       <Summary numSequencePoints="0" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="0" minCyclomaticComplexity="0" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="0" />
       <ModulePath>D:\Projects\Training\FdvRentalBike\src\FdvRentalBike.UnitTest\bin\Debug\FdvRentalBike.Common.dll</ModulePath>
-      <ModuleTime>2017-09-06T00:50:46.8360496Z</ModuleTime>
+      <ModuleTime>2017-09-07T01:54:40.3797704Z</ModuleTime>
       <ModuleName>FdvRentalBike.Common</ModuleName>
       <Files />
       <Classes>
